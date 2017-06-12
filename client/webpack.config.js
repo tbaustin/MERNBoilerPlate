@@ -12,7 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
-        use: 'babel-loader',
+        loader: 'babel-loader',
 		query: {
 			presets: ['react', 'es2015', 'stage-1']
 		}
